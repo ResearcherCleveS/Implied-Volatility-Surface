@@ -72,7 +72,16 @@ else:
 
     options_df = pd.DataFrame(option_data)
 
-    spot_price = ticker.history(period='1d')['Close'].iloc[0]
+    try:
+        spot_history = ticker.history(period='5d')
+        if spot_history.empty:
+            st.error('Failed to retrieve spot price data for SPY.')
+            st.stop()
+        else:
+            spot_price = spot_history['Close'].iloc[-1]
+    except Exception as e:
+        st.error(f'An error occurred while fetching spot price data: {e}')
+        st.stop()
 
     options_df['daysToExpiration'] = (options_df['expirationDate'] - today).dt.days
     options_df['timeToExpiration'] = options_df['daysToExpiration'] / 365
