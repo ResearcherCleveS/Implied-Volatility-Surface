@@ -129,7 +129,10 @@ else:
         title='Implied Volatility Surface for SPY Options',
         scene=dict(
             xaxis_title='Time to Expiration (years)',
-            yaxis_title='Strike Price ($)',
+            yaxis=dict(
+            title='Strike Price ($)',
+            autorange='reversed'
+            ),
             zaxis_title='Implied Volatility (%)'
         ),
         autosize=False,
