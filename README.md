@@ -9,6 +9,8 @@ A Python application that visualizes the implied volatility surface for SPY opti
 - **Interactive 3D Volatility Surface**: View implied volatility changes over varying strike prices and time to expiration.
 - **Real-Time Option Data**: The app fetches current SPY options data from Yahoo Finance.
 - **Adjustable Risk-Free Rate**: Customize the Black-Scholes model with a user-defined risk-free rate.
+- **User-Settable Ticker Symbol**: Input any ticker symbol to visualize its implied volatility surface.
+- **Custom Strike Price Filters**: Set minimum and maximum strike price percentages relative to the spot price for tailored analysis.
 - **User-Friendly Design**: Built with Streamlit for an accessible and responsive interface.
 
 ## Libraries Used
@@ -24,5 +26,4 @@ This project is licensed under the MIT License. You are free to use, modify, and
 
 ---
 
-Created by [Mateusz Jastrzębski](https://www.linkedin.com/in/mateusz-jastrz%C4%99bski-8a2622264/)  
-[GitHub](https://github.com/MateuszJastrzebski21)
+Created by [Mateusz Jastrzębski](https://www.linkedin.com/in/mateusz-jastrz%C4%99bski-8a2622264/)
