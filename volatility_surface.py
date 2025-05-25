@@ -10,7 +10,7 @@ import plotly.graph_objects as go
 
 
 # st.title('Implied Volatility Surface')
-st.title('Time Fractional Black Scholes Partial Differential Equation (tfBSPDE)')
+st.title('Time Fractional Black - Scholes Partial Differential Equation (tfBSPDE)')
 
 def bs_call_price(S, K, T, r, sigma, q=0):
     d1 = (np.log(S / K) + (r - q + 0.5 * sigma ** 2) * T) / (sigma * np.sqrt(T))
