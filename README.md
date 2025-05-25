@@ -1,5 +1,5 @@
 # $\sf Time \ Fractional \ Black-Scholes \ Partial \ Differential \ Equation \ (tfBSPDE)$
-- $\dots$
+- $\ddots$
 
 [Access to the application Streamlit](https://literate-space-rotary-phone-7vpjxgvjprw6frpp5-8501.app.github.dev)
 
