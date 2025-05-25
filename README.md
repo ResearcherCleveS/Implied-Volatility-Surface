@@ -1,4 +1,6 @@
-# Time Fractional Black-Scholes Partial Differential Equation (tfBSPDE)
+# $\textsf{Time Fractional Black-Scholes Partial Differential Equation (tfBSPDE)}$
+- $\dots$
+
 [Access to the application Streamlit](https://literate-space-rotary-phone-7vpjxgvjprw6frpp5-8501.app.github.dev)
 
 # Implied Volatility Surface for SPY Options
