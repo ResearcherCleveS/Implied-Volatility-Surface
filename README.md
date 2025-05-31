@@ -1,9 +1,8 @@
 # **$\sf Time \ Fractional \ Black-Scholes \ Partial \ Differential \ Equation \ (tfBSPDE)$**
 - **....**
-## **$\sf Streamlit \ profile \ link:$**
-[Access to the application Streamlit](https://share.streamlit.io/user/researchercleves)
 
-## **$\sf Implied \ Volitility \ Surface:$**
+[Access my profile Streamlit](https://share.streamlit.io/user/researchercleves)
+
 [Access to the application Streamlit](https://implied-volatility-surface-4f96sdbcw01.streamlit.app/)
 
 # Implied Volatility Surface for SPY Options
